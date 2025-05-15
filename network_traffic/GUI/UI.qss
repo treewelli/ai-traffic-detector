@@ -1,0 +1,312 @@
+/* ================== 全局设置 ================== */
+* {
+    font-family: '微软雅黑', 'Microsoft YaHei', 'Segoe UI', 'Arial';
+    font-size: 20px;
+    color: white;
+}
+QWidget {
+    background-color: #1e1e40;  /* 主背景 */
+}
+QWidget#module_switch_bar QPushButton {
+    background-color: #1e1e2f;
+    font-size: 20px;
+    border-radius: 6px;
+    min-height: 60px;
+}
+QWidget#module_switch_bar QPushButton:checked {
+    background-color: #3388BB;
+}
+/* ================== QCheckBox 复选框 ================== */
+QCheckBox {
+    color: #eeeeee;
+    font-size: 18px;
+}
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: none;
+    border-radius: 3px;
+    background-color: #222;
+}
+QCheckBox::indicator:hover {
+    border: 1px solid #00ffff;
+}
+QCheckBox::indicator:checked {
+    image: url(:/qt-project.org/styles/commonstyle/images/checkbox_checked.png);
+    background-color: #00bbff;
+    border: 1px solid #00bbff;
+}
+
+/* ================== QComboBox 下拉框 ================== */
+QComboBox {
+    background-color: #2c2c3c;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 12px;
+    color: white;
+    font-size: 18px;
+}
+QComboBox::drop-down {
+    border: none;
+}
+QComboBox::down-arrow {
+    width: 14px;
+    height: 14px;
+    border: none;
+}
+QComboBox QAbstractItemView {
+    background-color: #2c2c3c;
+    color: white;
+    border: none;
+    selection-color: #77DD77;
+}
+
+/* ================== QGroupBox 分组容器 ================== */
+QGroupBox {
+    background-color: #232339;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    margin-top: 12px;
+}
+
+/* ================== QLabel 标签 ================== */
+QLabel {
+    min-width: 120px;
+    font-size: 18px;
+    padding-left: 2px;
+}
+
+/* ================== QLineEdit 输入框 ================== */
+QLineEdit {
+    max-width: 250px;
+    padding: 6px 6px;
+    font-size: 18px;
+    border: none;
+    background-color: #2c2c3c;
+    color: white;
+}
+
+/* ================== QListWidget 侧边导航列表 ================== */
+QListWidget {
+    background-color: #1e1e2f;
+    border: none;
+    font-size:21px;
+    padding:12px 2px;
+}
+QListWidget::item {
+    
+    padding:4px 12px;
+}
+QListWidget::item:hover {
+    background-color: #2c2c3c;
+}
+QListWidget::item:selected {
+    background-color: #1e1e40;
+    border-left: 3px solid #00c6ff;
+    font-weight: bold;
+    color: #00c6ff;
+}
+QListWidget#Navigation{
+    border: none;
+    font-size: 22px;
+    padding-top: 10px;
+}
+QListWidget#Navigation::item {
+    height: 50px;
+    padding-left: 20px;
+    color: #aaaaaa;
+}
+QListWidget#Navigation::item:selected {
+    border-left: 4px solid #00c6ff;
+    color: white;
+    font-weight: bold;
+}
+QListWidget#Navigation::item:hover {
+    color: white;
+}
+
+/* ===================== QMessageBox 样式 ===================== */
+QMessageBox {
+    background-color: #232339;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+QMessageBox QLabel {
+    color: white;
+    font-size: 18px;
+    qproperty-alignment: 'AlignLeft | AlignTop';
+}
+QMessageBox QPushButton {
+    background-color: #4488FF;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    min-width: 100px;
+    min-height: 32px;
+    font-size: 16px;
+}
+QMessageBox QPushButton:hover {
+    background-color: #4499ff;
+}
+
+
+/* ================== QPlainTextEdit 控制台日志输出区 ================== */
+QPlainTextEdit {
+    background-color: #1e1e2f;
+    color: #77DD77;
+    font-family: Consolas;
+    font-size: 18px;
+    border: none;
+    padding: 8px;
+}
+
+/* ================== QPushButton 按钮 ================== */
+QPushButton {
+    background-color: #4488FF;
+    color: white;
+    min-height: 40px;
+    max-width: 140px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+QPushButton:hover {
+    background-color: #4499ff;
+}
+QPushButton:pressed {
+    background-color: #3388BB;
+}
+QPushButton:checked {
+    background-color:rgb(0, 162, 255);  /* ✅ 高亮色，可改为你喜欢的糖果色 */
+    font-weight: bold;
+    color: white;
+}
+
+QPushButton#btn_minimize,
+QPushButton#btn_maximize { 
+    background-color:transparent ; 
+    color: white; 
+    border: none;
+    min-height: 30px; 
+}
+QPushButton#btn_minimize:hover,
+QPushButton#btn_maximize:hover {
+    background-color: #555;
+}
+QPushButton#btn_close{
+    background-color: transparent;
+    color:white;
+    min-height: 30px;
+}
+QPushButton#btn_close:hover{
+    background-color: red;
+}
+
+QPushButton#ManualToggle:checked,
+QPushButton#AutoToggle:checked,
+QPushButton#SingleThread:checked,
+QPushButton#MultiThread:checked {
+    background-color: #3388BB;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+QPushButton#ManualToggle,
+QPushButton#AutoToggle,
+QPushButton#MultiThread,
+QPushButton#SingleThread {
+    background-color: #1e1e2f;
+    color: white;
+    border-radius: 6px;
+}
+/* ================== QScrollBar 滚动条（垂直 & 横向） ================== */
+/* 垂直滚动条 */
+QScrollBar:vertical {
+    background: transparent;
+    width: 12px;
+    margin: 0px;
+}
+QScrollBar::handle:vertical {
+    background: transparent;
+    min-height: 20px;
+    border-radius: 6px;
+}
+QScrollBar::handle:vertical:hover {
+    background: #555;
+}
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+    border: none;
+}
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: none;
+    border: none;
+}
+
+/* 横向滚动条 */
+QScrollBar:horizontal {
+    background: transparent;
+    height: 12px;
+    margin: 0px;
+}
+QScrollBar::handle:horizontal {
+    background: transparent;
+    min-width: 20px;
+    border-radius: 6px;
+}
+QScrollBar::handle:horizontal:hover {
+    background: #555;
+}
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+    width: 0px;
+    border: none;
+}
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+    background: none;
+    border: none;
+}
+
+/* ================== QTextEdit 日志输出区 ================== */
+QTextEdit {
+    background-color: #1e1e2f;
+    color: #77DD77;
+    font-family: Consolas;
+    font-size: 18px;
+    border: none;
+    padding: 8px;
+}
+
+/* ================== QTreeWidget 配置树结构 ================== */
+QTreeWidget {
+    background-color: #1e1e40;
+    border-right: none;
+    min-width: 100px;
+    color: #999;
+}
+QTreeWidget::item {
+    min-width: 100px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 4px;
+}
+QTreeWidget::item:selected {
+    background-color: #1e1e40;
+    border-right: 4px solid #00c6ff;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+QTreeView::branch {
+    background: #1e1e40;
+}
+QTreeView::item:focus {
+    outline: none;
+}

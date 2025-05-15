@@ -1,0 +1,92 @@
+cleaning:
+  constant_categorical_value: UNKNOWN
+  default_timestamp: '2018-01-01'
+  enable_ffill: true
+  fill_categorical: mode
+  fill_numeric: median
+  missing_threshold: 0.7
+  parallel_workers: 4
+dynamic_chunk:
+  enable: true
+  fallback_chunk: 50000
+  max_chunk: 200000
+  min_chunk: 10000
+  reserve_mb: 500
+  sample_bytes: 2048
+engine_params:
+  enable_cache_clear: true
+feature:
+  parallel_workers: 4
+  pca:
+    pca_components: 32
+    target_column: label
+    whiten: false
+  rows_per_file: 900000
+  sampling:
+    min_sample_size: 10000
+    sample_ratio: 0.02
+  scaling:
+    method: standard
+    with_mean: true
+    with_std: true
+  zarr_chunk_size: 100000
+label_map:
+  BENIGN: 0
+  Bot: 1
+  DDoS: 2
+  DoS GoldenEye: 13
+  DoS Hulk: 12
+  DoS Slowhttptest: 11
+  DoS slowloris: 10
+  FTP-Patator: 8
+  Heartbleed: 14
+  Infiltration: 4
+  PortScan: 3
+  SSH-Patator: 9
+  "Web Attack \uFFFD Brute Force": 5
+  "Web Attack \uFFFD Sql Injection": 7
+  "Web Attack \uFFFD XSS": 6
+logging:
+  backup_count: 7
+  format: '%(asctime)s - %(levelname)s - %(message)s'
+  level: INFO
+  max_size: 10485670
+lstm_params:
+  data:
+    input_path: data/trainset
+    sequence_length: 60
+    target_minority_ratio: 0.05
+    test_size: 0.2
+  inference:
+    chunk_overlap: 0.5
+    distribution_alert_threshold: 0.3
+    topk: 3
+  model:
+    bidirectional: false
+    dropout: 0.3
+    feature_dim: 32
+    hidden_size: 128
+    num_layers: 4
+  training:
+    accumulation_steps: 4
+    batch_size: 2048
+    device: cuda
+    learning_rate: 0.001
+    num_epochs: 2
+    use_amp: true
+    use_gradient_checkpointing: true
+  valid_classes: None
+paths:
+  cleaned_data: data/cleaned
+  config_path: config/patterns.yaml
+  feature_data: data/processed/feature
+  log_dir: log
+  model_best: models/best
+  model_ckpt: models/ckpt
+  raw_data: data/raw
+  sequence_data: data/processed/sequence
+  test_data: data/test
+  train_set: data/trainset
+project:
+  chunk_size: 300000
+  dtype: float32

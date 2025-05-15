@@ -1,0 +1,123 @@
+2025-05-08 21:04:03,682 - INFO - 手动模式：跳过 0 个已处理文件，3 个新文件需要处理
+2025-05-08 21:04:04,230 - INFO - 正在处理: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-05-08 21:04:04,230 - INFO - 原始数据形状: (225745, 79)
+2025-05-08 21:04:05,993 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-08 21:04:06,127 - INFO - 动态分块大小: 200000
+2025-05-08 21:04:06,127 - INFO - 处理中：Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-05-08 21:04:07,021 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-08 21:04:07,222 - INFO - 正在处理: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-05-08 21:04:07,222 - INFO - 原始数据形状: (286467, 79)
+2025-05-08 21:04:08,536 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-08 21:04:08,649 - INFO - 动态分块大小: 200000
+2025-05-08 21:04:08,650 - INFO - 处理中：Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-05-08 21:04:09,271 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-08 21:04:09,444 - INFO - 正在处理: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-05-08 21:04:09,444 - INFO - 原始数据形状: (191033, 79)
+2025-05-08 21:04:10,747 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-08 21:04:10,862 - INFO - 动态分块大小: 200000
+2025-05-08 21:04:10,863 - INFO - 处理中：Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-05-08 21:04:11,419 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-10 23:32:56,542 - INFO - 自动模式：跳过 0 个已处理文件，9 个新文件需要处理
+2025-05-10 23:32:57,699 - INFO - 正在处理: Monday-WorkingHours.pcap_ISCX.csv
+2025-05-10 23:32:57,699 - INFO - 原始数据形状: (529918, 79)
+2025-05-10 23:33:00,641 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:00,776 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:00,776 - INFO - 处理中：Monday-WorkingHours.pcap_ISCX.csv
+2025-05-10 23:33:02,655 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Monday-WorkingHours.pcap_ISCX.parquet
+2025-05-10 23:33:02,814 - INFO - 正在处理: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-05-10 23:33:02,814 - INFO - 原始数据形状: (225745, 79)
+2025-05-10 23:33:04,174 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:04,293 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:04,294 - INFO - 处理中：Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-05-10 23:33:05,059 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-10 23:33:05,246 - INFO - 正在处理: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-05-10 23:33:05,246 - INFO - 原始数据形状: (286467, 79)
+2025-05-10 23:33:04,117 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:04,255 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:04,255 - INFO - 处理中：Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-05-10 23:33:04,945 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-10 23:33:05,040 - INFO - 正在处理: UNSW_NB15_training-set.csv
+2025-05-10 23:33:05,040 - INFO - 原始数据形状: (175341, 45)
+2025-05-10 23:33:05,795 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:05,899 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:05,899 - INFO - 处理中：UNSW_NB15_training-set.csv
+2025-05-10 23:33:06,245 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_UNSW_NB15_training-set.parquet
+2025-05-10 23:33:06,385 - INFO - 正在处理: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-05-10 23:33:06,385 - INFO - 原始数据形状: (191033, 79)
+2025-05-10 23:33:07,834 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:07,950 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:07,951 - INFO - 处理中：Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-05-10 23:33:08,600 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-10 23:33:08,743 - INFO - 正在处理: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-05-10 23:33:08,743 - INFO - 原始数据形状: (170366, 79)
+2025-05-10 23:33:10,058 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:10,180 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:10,180 - INFO - 处理中：Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-05-10 23:33:10,765 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.parquet
+2025-05-10 23:33:11,189 - INFO - 正在处理: Wednesday-workingHours.pcap_ISCX.csv
+2025-05-10 23:33:11,189 - INFO - 原始数据形状: (692703, 79)
+2025-05-10 23:33:12,827 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:12,954 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:12,954 - INFO - 处理中：Wednesday-workingHours.pcap_ISCX.csv
+2025-05-10 23:33:14,837 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Wednesday-workingHours.pcap_ISCX.parquet
+2025-05-10 23:33:15,114 - INFO - 正在处理: Tuesday-WorkingHours.pcap_ISCX.csv
+2025-05-10 23:33:15,114 - INFO - 原始数据形状: (445909, 79)
+2025-05-10 23:33:16,656 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:16,772 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:16,772 - INFO - 处理中：Tuesday-WorkingHours.pcap_ISCX.csv
+2025-05-10 23:33:18,048 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Tuesday-WorkingHours.pcap_ISCX.parquet
+2025-05-10 23:33:18,251 - INFO - 正在处理: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-05-10 23:33:18,252 - INFO - 原始数据形状: (288602, 79)
+2025-05-10 23:33:19,655 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:33:19,795 - INFO - 动态分块大小: 200000
+2025-05-10 23:33:19,796 - INFO - 处理中：Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-05-10 23:33:20,553 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.parquet
+2025-05-10 23:48:10,652 - INFO - 自动模式：跳过 0 个已处理文件，8 个新文件需要处理
+2025-05-10 23:48:11,654 - INFO - 正在处理: Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-05-10 23:48:11,657 - INFO - 原始数据形状: (191033, 79)
+2025-05-10 23:48:11,676 - INFO - 正在处理: Monday-WorkingHours.pcap_ISCX.csv
+2025-05-10 23:48:11,679 - INFO - 正在处理: Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-05-10 23:48:11,680 - INFO - 原始数据形状: (529918, 79)
+2025-05-10 23:48:11,682 - INFO - 正在处理: Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-05-10 23:48:11,682 - INFO - 原始数据形状: (225745, 79)
+2025-05-10 23:48:11,684 - INFO - 原始数据形状: (286467, 79)
+2025-05-10 23:48:20,505 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:48:20,525 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:48:20,570 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:48:20,635 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:48:20,760 - INFO - 动态分块大小: 200000
+2025-05-10 23:48:20,760 - INFO - 处理中：Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-05-10 23:48:20,790 - INFO - 动态分块大小: 200000
+2025-05-10 23:48:20,790 - INFO - 处理中：Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-05-10 23:48:20,808 - INFO - 动态分块大小: 200000
+2025-05-10 23:48:20,809 - INFO - 处理中：Monday-WorkingHours.pcap_ISCX.csv
+2025-05-10 23:48:20,835 - INFO - 动态分块大小: 200000
+2025-05-10 23:48:20,844 - INFO - 处理中：Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-05-10 23:48:22,778 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-10 23:48:22,828 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-10 23:48:22,925 - INFO - 正在处理: Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-05-10 23:48:22,925 - INFO - 原始数据形状: (170366, 79)
+2025-05-10 23:48:22,997 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-10 23:48:23,520 - INFO - 正在处理: Tuesday-WorkingHours.pcap_ISCX.csv
+2025-05-10 23:48:23,520 - INFO - 原始数据形状: (445909, 79)
+2025-05-10 23:48:23,523 - INFO - 正在处理: Wednesday-workingHours.pcap_ISCX.csv
+2025-05-10 23:48:23,524 - INFO - 原始数据形状: (692703, 79)
+2025-05-10 23:48:23,541 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Monday-WorkingHours.pcap_ISCX.parquet
+2025-05-10 23:48:23,773 - INFO - 正在处理: Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-05-10 23:48:23,775 - INFO - 原始数据形状: (288602, 79)
+2025-05-10 23:48:31,224 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:48:31,411 - INFO - 动态分块大小: 200000
+2025-05-10 23:48:31,413 - INFO - 处理中：Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-05-10 23:48:32,099 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.parquet
+2025-05-10 23:48:32,793 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:48:32,824 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:48:32,921 - INFO - 当前标签映射: {'BENIGN': 0, 'Bot': 1, 'DDoS': 2, 'DoS GoldenEye': 13, 'DoS Hulk': 12, 'DoS Slowhttptest': 11, 'DoS slowloris': 10, 'FTP-Patator': 8, 'Heartbleed': 14, 'Infiltration': 4, 'PortScan': 3, 'SSH-Patator': 9, 'Web Attack � Brute Force': 5, 'Web Attack � Sql Injection': 7, 'Web Attack � XSS': 6}
+2025-05-10 23:48:32,964 - INFO - 动态分块大小: 200000
+2025-05-10 23:48:32,964 - INFO - 处理中：Wednesday-workingHours.pcap_ISCX.csv
+2025-05-10 23:48:32,991 - INFO - 动态分块大小: 200000
+2025-05-10 23:48:32,991 - INFO - 处理中：Tuesday-WorkingHours.pcap_ISCX.csv
+2025-05-10 23:48:33,256 - INFO - 动态分块大小: 200000
+2025-05-10 23:48:33,256 - INFO - 处理中：Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-05-10 23:48:34,606 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.parquet
+2025-05-10 23:48:35,197 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Tuesday-WorkingHours.pcap_ISCX.parquet
+2025-05-10 23:48:35,654 - INFO -  ✅ 数据清理处理成功! 文件保存至: /home/tree/projects/network_traffic/data/cleaned/cleaned_Wednesday-workingHours.pcap_ISCX.parquet

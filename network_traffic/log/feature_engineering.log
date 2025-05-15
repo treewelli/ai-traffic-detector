@@ -1,0 +1,265 @@
+2025-05-08 21:04:23,006 - INFO - 手动模式：跳过 0 个已处理文件，3 个新文件需要处理
+2025-05-08 21:04:23,006 - INFO - 并行处理模式：使用 4 个工作线程
+2025-05-08 21:04:23,006 - INFO - 特征工程处理开始！
+2025-05-08 21:04:23,632 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet | 原始形状: (286467, 79)
+2025-05-08 21:04:23,637 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet | 原始形状: (191033, 79)
+2025-05-08 21:04:23,642 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet | 原始形状: (225745, 79)
+2025-05-08 21:04:23,580 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 21:04:23,607 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 21:04:23,656 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 21:04:24,574 - INFO - 处理块大小: 200000
+2025-05-08 21:04:24,576 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-08 21:04:24,588 - INFO - 处理块大小: 200000
+2025-05-08 21:04:24,590 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-08 21:04:24,608 - INFO - 处理块大小: 200000
+2025-05-08 21:04:24,612 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-08 21:04:25,230 - INFO - 类别 1.0：原始 1966 → 目标 10054，新增样本 8088
+2025-05-08 21:04:25,583 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 21:04:25,616 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 21:04:25,669 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Morning.pcap_ISCX_pca_1.zarr | 形状: (199121, 32)
+2025-05-08 21:04:25,852 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX_pca_1.zarr | 形状: (225745, 32)
+2025-05-08 21:04:25,946 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX_pca_1.zarr | 形状: (286467, 32)
+2025-05-08 21:04:25,961 - INFO - 所有特征工程任务已完成！
+2025-05-08 23:07:06,261 - INFO - 手动模式：跳过 0 个已处理文件，3 个新文件需要处理
+2025-05-08 23:07:06,262 - INFO - 特征工程处理开始！
+2025-05-08 23:07:06,828 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet | 原始形状: (225745, 79)
+2025-05-08 23:07:07,822 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:07:08,457 - INFO - 处理块大小: 200000
+2025-05-08 23:07:08,459 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-08 23:07:08,921 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 23:07:09,198 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX_pca_1.zarr | 形状: (225745, 32)
+2025-05-08 23:07:09,311 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet | 原始形状: (286467, 79)
+2025-05-08 23:07:10,012 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:07:10,203 - INFO - 处理块大小: 200000
+2025-05-08 23:07:10,207 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-08 23:07:10,507 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 23:07:10,853 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX_pca_1.zarr | 形状: (286467, 32)
+2025-05-08 23:07:10,968 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet | 原始形状: (191033, 79)
+2025-05-08 23:07:11,549 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:07:11,753 - INFO - 处理块大小: 200000
+2025-05-08 23:07:11,756 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-08 23:07:12,021 - INFO - 类别 1.0：原始 1966 → 目标 21225，新增样本 19259
+2025-05-08 23:07:12,311 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Morning.pcap_ISCX_pca_1.zarr | 形状: (210292, 32)
+2025-05-08 23:07:12,322 - INFO - 所有特征工程任务已完成！
+2025-05-08 23:34:16,095 - INFO - 手动模式：跳过 0 个已处理文件，3 个新文件需要处理
+2025-05-08 23:34:16,097 - INFO - 特征工程处理开始！
+2025-05-08 23:34:16,434 - INFO - 手动模式：跳过 0 个已处理文件，3 个新文件需要处理
+2025-05-08 23:34:16,434 - INFO - 特征工程处理开始！
+2025-05-08 23:34:16,793 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet | 原始形状: (225745, 79)
+2025-05-08 23:34:16,797 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet | 原始形状: (225745, 79)
+2025-05-08 23:34:18,262 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:34:18,315 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:34:19,011 - INFO - 处理块大小: 200000
+2025-05-08 23:34:19,021 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-08 23:34:19,029 - INFO - 处理块大小: 200000
+2025-05-08 23:34:19,034 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-08 23:34:19,974 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 23:34:19,974 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 23:34:20,059 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX_pca_1.zarr | 形状: (225745, 32)
+2025-05-08 23:34:20,063 - ERROR - 处理失败: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet, 错误: path 'labels' contains an array
+Traceback (most recent call last):
+  File "/home/tree/projects/network_traffic/src/feature_engineering.py", line 345, in _feature_engineering_single
+    self.save_zarr_file(output_path, pca_results_np, labels_np)
+  File "/home/tree/projects/network_traffic/src/feature_engineering.py", line 245, in save_zarr_file
+    z.create_dataset("labels", data=labels, chunks=(chunksize,), compressor=compressor)
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/hierarchy.py", line 1111, in create_dataset
+    return self._write_op(self._create_dataset_nosync, name, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/hierarchy.py", line 952, in _write_op
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/hierarchy.py", line 1126, in _create_dataset_nosync
+    a = array(data, store=self._store, path=path, chunk_store=self._chunk_store, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/creation.py", line 441, in array
+    z = create(**kwargs)
+        ^^^^^^^^^^^^^^^^
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/creation.py", line 209, in create
+    init_array(
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/storage.py", line 455, in init_array
+    _init_array_metadata(
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/storage.py", line 524, in _init_array_metadata
+    raise ContainsArrayError(path)
+zarr.errors.ContainsArrayError: path 'labels' contains an array
+2025-05-08 23:34:20,069 - ERROR - 任务失败: path 'labels' contains an array
+2025-05-08 23:34:20,269 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet | 原始形状: (286467, 79)
+2025-05-08 23:34:20,272 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet | 原始形状: (286467, 79)
+2025-05-08 23:34:21,520 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:34:21,602 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:34:21,795 - INFO - 处理块大小: 200000
+2025-05-08 23:34:21,800 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-08 23:34:21,812 - INFO - 处理块大小: 200000
+2025-05-08 23:34:21,816 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-08 23:34:22,493 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 23:34:22,546 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 23:34:22,595 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX_pca_1.zarr | 形状: (286467, 32)
+2025-05-08 23:34:22,663 - ERROR - 处理失败: /home/tree/projects/network_traffic/data/cleaned/cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet, 错误: path 'labels' contains an array
+Traceback (most recent call last):
+  File "/home/tree/projects/network_traffic/src/feature_engineering.py", line 345, in _feature_engineering_single
+    self.save_zarr_file(output_path, pca_results_np, labels_np)
+  File "/home/tree/projects/network_traffic/src/feature_engineering.py", line 245, in save_zarr_file
+    z.create_dataset("labels", data=labels, chunks=(chunksize,), compressor=compressor)
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/hierarchy.py", line 1111, in create_dataset
+    return self._write_op(self._create_dataset_nosync, name, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/hierarchy.py", line 952, in _write_op
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/hierarchy.py", line 1126, in _create_dataset_nosync
+    a = array(data, store=self._store, path=path, chunk_store=self._chunk_store, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/creation.py", line 441, in array
+    z = create(**kwargs)
+        ^^^^^^^^^^^^^^^^
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/creation.py", line 209, in create
+    init_array(
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/storage.py", line 455, in init_array
+    _init_array_metadata(
+  File "/home/tree/miniconda3/envs/netflow/lib/python3.12/site-packages/zarr/storage.py", line 524, in _init_array_metadata
+    raise ContainsArrayError(path)
+zarr.errors.ContainsArrayError: path 'labels' contains an array
+2025-05-08 23:34:22,664 - ERROR - 任务失败: path 'labels' contains an array
+2025-05-08 23:34:22,815 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet | 原始形状: (191033, 79)
+2025-05-08 23:34:22,818 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet | 原始形状: (191033, 79)
+2025-05-08 23:34:23,961 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:34:24,306 - INFO - 处理块大小: 200000
+2025-05-08 23:34:24,309 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-08 23:34:24,464 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:34:24,741 - INFO - 类别 1.0：原始 1966 → 目标 21225，新增样本 19259
+2025-05-08 23:34:24,755 - INFO - 处理块大小: 200000
+2025-05-08 23:34:24,758 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-08 23:34:24,940 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Morning.pcap_ISCX_pca_1.zarr | 形状: (210292, 32)
+2025-05-08 23:34:24,960 - INFO - 所有特征工程任务已完成！
+2025-05-08 23:34:25,075 - INFO - 类别 1.0：原始 1966 → 目标 21225，新增样本 19259
+2025-05-08 23:34:25,177 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Morning.pcap_ISCX_pca_1.zarr | 形状: (210292, 32)
+2025-05-08 23:34:25,179 - INFO - 所有特征工程任务已完成！
+2025-05-08 23:50:34,882 - INFO - 手动模式：跳过 0 个已处理文件，3 个新文件需要处理
+2025-05-08 23:50:34,883 - INFO - 特征工程处理开始！
+2025-05-08 23:50:35,403 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet | 原始形状: (225745, 79)
+2025-05-08 23:50:36,331 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:50:36,891 - INFO - 处理块大小: 200000
+2025-05-08 23:50:36,894 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-08 23:50:37,247 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 23:50:37,325 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX_pca_1.zarr | 形状: (225745, 32)
+2025-05-08 23:50:37,441 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet | 原始形状: (286467, 79)
+2025-05-08 23:50:38,009 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:50:38,203 - INFO - 处理块大小: 200000
+2025-05-08 23:50:38,207 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-08 23:50:38,544 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-08 23:50:38,656 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX_pca_1.zarr | 形状: (286467, 32)
+2025-05-08 23:50:38,774 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet | 原始形状: (191033, 79)
+2025-05-08 23:50:39,285 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-08 23:50:39,477 - INFO - 处理块大小: 200000
+2025-05-08 23:50:39,480 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-08 23:50:39,733 - INFO - 类别 1.0：原始 1966 → 目标 10054，新增样本 8088
+2025-05-08 23:50:39,851 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Morning.pcap_ISCX_pca_1.zarr | 形状: (199121, 32)
+2025-05-08 23:50:39,860 - INFO - 所有特征工程任务已完成！
+2025-05-10 23:33:27,013 - INFO - 自动模式：跳过 0 个已处理文件，9 个新文件需要处理
+2025-05-10 23:33:27,014 - INFO - 特征工程处理开始！
+2025-05-10 23:33:27,369 - INFO - 开始处理文件: cleaned_Tuesday-WorkingHours.pcap_ISCX.parquet | 原始形状: (445909, 79)
+2025-05-10 23:33:28,020 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:28,567 - INFO - 处理块大小: 200000
+2025-05-10 23:33:28,570 - INFO - 处理中: file_chunk1/1 of cleaned_Tuesday-WorkingHours.pcap_ISCX.parquet
+2025-05-10 23:33:29,097 - INFO - 类别 9.0：原始 5897 → 目标 23468，新增样本 17571
+2025-05-10 23:33:29,546 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Tuesday-WorkingHours.pcap_ISCX_pca_1.zarr | 形状: (479010, 32)
+2025-05-10 23:33:29,840 - INFO - 开始处理文件: cleaned_Monday-WorkingHours.pcap_ISCX.parquet | 原始形状: (529918, 79)
+2025-05-10 23:33:30,422 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:30,609 - INFO - 处理块大小: 200000
+2025-05-10 23:33:30,611 - INFO - 处理中: file_chunk1/1 of cleaned_Monday-WorkingHours.pcap_ISCX.parquet
+2025-05-10 23:33:31,128 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-10 23:33:31,343 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Monday-WorkingHours.pcap_ISCX_pca_1.zarr | 形状: (529918, 32)
+2025-05-10 23:33:31,465 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet | 原始形状: (225745, 79)
+2025-05-10 23:33:31,984 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:32,185 - INFO - 处理块大小: 200000
+2025-05-10 23:33:32,187 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-10 23:33:32,504 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-10 23:33:32,587 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX_pca_1.zarr | 形状: (225745, 32)
+2025-05-10 23:33:32,686 - INFO - 开始处理文件: cleaned_UNSW_NB15_training-set.parquet | 原始形状: (175341, 45)
+2025-05-10 23:33:33,057 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:33,240 - INFO - 处理块大小: 200000
+2025-05-10 23:33:33,242 - INFO - 处理中: file_chunk1/1 of cleaned_UNSW_NB15_training-set.parquet
+2025-05-10 23:33:33,399 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-10 23:33:33,464 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_UNSW_NB15_training-set_pca_1.zarr | 形状: (175341, 32)
+2025-05-10 23:33:33,610 - INFO - 开始处理文件: cleaned_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.parquet | 原始形状: (288602, 79)
+2025-05-10 23:33:34,236 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:34,448 - INFO - 处理块大小: 200000
+2025-05-10 23:33:34,451 - INFO - 处理中: file_chunk1/1 of cleaned_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.parquet
+2025-05-10 23:33:34,737 - INFO - 类别 4.0：原始 36 → 目标 15189，新增样本 15153
+2025-05-10 23:33:34,926 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX_pca_1.zarr | 形状: (303755, 32)
+2025-05-10 23:33:35,114 - INFO - 开始处理文件: cleaned_Wednesday-workingHours.pcap_ISCX.parquet | 原始形状: (692703, 79)
+2025-05-10 23:33:35,723 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:35,940 - INFO - 处理块大小: 200000
+2025-05-10 23:33:35,941 - INFO - 处理中: file_chunk1/1 of cleaned_Wednesday-workingHours.pcap_ISCX.parquet
+2025-05-10 23:33:34,110 - INFO - 类别 14.0：原始 11 → 目标 36458，新增样本 36447
+2025-05-10 23:33:34,772 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Wednesday-workingHours.pcap_ISCX_pca_1.zarr | 形状: (816936, 32)
+2025-05-10 23:33:34,933 - INFO - 开始处理文件: cleaned_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.parquet | 原始形状: (170366, 79)
+2025-05-10 23:33:35,348 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:35,567 - INFO - 处理块大小: 200000
+2025-05-10 23:33:35,569 - INFO - 处理中: file_chunk1/1 of cleaned_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.parquet
+2025-05-10 23:33:35,729 - INFO - 类别 7.0：原始 21 → 目标 8966，新增样本 8945
+2025-05-10 23:33:35,821 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX_pca_1.zarr | 形状: (195084, 32)
+2025-05-10 23:33:35,923 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet | 原始形状: (191033, 79)
+2025-05-10 23:33:36,440 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:36,641 - INFO - 处理块大小: 200000
+2025-05-10 23:33:36,644 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-10 23:33:36,864 - INFO - 类别 1.0：原始 1966 → 目标 10054，新增样本 8088
+2025-05-10 23:33:36,961 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Morning.pcap_ISCX_pca_1.zarr | 形状: (199121, 32)
+2025-05-10 23:33:37,059 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet | 原始形状: (286467, 79)
+2025-05-10 23:33:37,630 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:33:37,834 - INFO - 处理块大小: 200000
+2025-05-10 23:33:37,836 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-10 23:33:38,137 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-10 23:33:38,231 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX_pca_1.zarr | 形状: (286467, 32)
+2025-05-10 23:33:38,245 - INFO - 所有特征工程任务已完成！
+2025-05-10 23:49:23,731 - INFO - 自动模式：跳过 0 个已处理文件，8 个新文件需要处理
+2025-05-10 23:49:23,732 - INFO - 并行处理模式：使用 4 个工作线程
+2025-05-10 23:49:23,732 - INFO - 特征工程处理开始！
+2025-05-10 23:49:24,333 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet | 原始形状: (225745, 79)
+2025-05-10 23:49:24,429 - INFO - 开始处理文件: cleaned_Monday-WorkingHours.pcap_ISCX.parquet | 原始形状: (529918, 79)
+2025-05-10 23:49:24,457 - INFO - 开始处理文件: cleaned_Tuesday-WorkingHours.pcap_ISCX.parquet | 原始形状: (445909, 79)
+2025-05-10 23:49:24,463 - INFO - 开始处理文件: cleaned_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.parquet | 原始形状: (288602, 79)
+2025-05-10 23:49:27,847 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:49:27,860 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:49:27,965 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:49:28,356 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:49:29,163 - INFO - 处理块大小: 200000
+2025-05-10 23:49:29,165 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.parquet
+2025-05-10 23:49:29,185 - INFO - 处理块大小: 200000
+2025-05-10 23:49:29,188 - INFO - 处理中: file_chunk1/1 of cleaned_Monday-WorkingHours.pcap_ISCX.parquet
+2025-05-10 23:49:29,209 - INFO - 处理块大小: 200000
+2025-05-10 23:49:29,211 - INFO - 处理中: file_chunk1/1 of cleaned_Tuesday-WorkingHours.pcap_ISCX.parquet
+2025-05-10 23:49:29,233 - INFO - 处理块大小: 200000
+2025-05-10 23:49:29,235 - INFO - 处理中: file_chunk1/1 of cleaned_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.parquet
+2025-05-10 23:49:30,978 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-10 23:49:31,102 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-DDos.pcap_ISCX_pca_1.zarr | 形状: (225745, 32)
+2025-05-10 23:49:31,345 - INFO - 类别 4.0：原始 36 → 目标 15189，新增样本 15153
+2025-05-10 23:49:31,394 - INFO - 开始处理文件: cleaned_Wednesday-workingHours.pcap_ISCX.parquet | 原始形状: (692703, 79)
+2025-05-10 23:49:31,900 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX_pca_1.zarr | 形状: (303755, 32)
+2025-05-10 23:49:31,998 - INFO - 开始处理文件: cleaned_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.parquet | 原始形状: (170366, 79)
+2025-05-10 23:49:32,343 - INFO - 类别 9.0：原始 5897 → 目标 23468，新增样本 17571
+2025-05-10 23:49:32,543 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-10 23:49:32,834 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Monday-WorkingHours.pcap_ISCX_pca_1.zarr | 形状: (529918, 32)
+2025-05-10 23:49:32,873 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Tuesday-WorkingHours.pcap_ISCX_pca_1.zarr | 形状: (479010, 32)
+2025-05-10 23:49:32,992 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet | 原始形状: (191033, 79)
+2025-05-10 23:49:33,058 - INFO - 开始处理文件: cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet | 原始形状: (286467, 79)
+2025-05-10 23:49:35,058 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:49:35,528 - INFO - 处理块大小: 200000
+2025-05-10 23:49:35,530 - INFO - 处理中: file_chunk1/1 of cleaned_Wednesday-workingHours.pcap_ISCX.parquet
+2025-05-10 23:49:35,678 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:49:36,096 - INFO - 处理块大小: 200000
+2025-05-10 23:49:36,101 - INFO - 处理中: file_chunk1/1 of cleaned_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.parquet
+2025-05-10 23:49:36,697 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:49:36,842 - INFO - 采样 100000 条数据用于PCA拟合
+2025-05-10 23:49:37,066 - INFO - 类别 7.0：原始 21 → 目标 8966，新增样本 8945
+2025-05-10 23:49:37,191 - INFO - 处理块大小: 200000
+2025-05-10 23:49:37,196 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.parquet
+2025-05-10 23:49:37,287 - INFO - 处理块大小: 200000
+2025-05-10 23:49:37,291 - INFO - 处理中: file_chunk1/1 of cleaned_Friday-WorkingHours-Morning.pcap_ISCX.parquet
+2025-05-10 23:49:37,293 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX_pca_1.zarr | 形状: (195084, 32)
+2025-05-10 23:49:37,844 - INFO - 类别 1.0：原始 1966 → 目标 10054，新增样本 8088
+2025-05-10 23:49:37,994 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Morning.pcap_ISCX_pca_1.zarr | 形状: (199121, 32)
+2025-05-10 23:49:38,113 - INFO - 无需执行 SMOTE：没有低于阈值的类别
+2025-05-10 23:49:38,226 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX_pca_1.zarr | 形状: (286467, 32)
+2025-05-10 23:49:38,242 - INFO - 类别 14.0：原始 11 → 目标 36458，新增样本 36447
+2025-05-10 23:49:38,979 - INFO -  ✅ 保存PCA结果到: /home/tree/projects/network_traffic/data/processed/feature/feature_Wednesday-workingHours.pcap_ISCX_pca_1.zarr | 形状: (816936, 32)
+2025-05-10 23:49:39,002 - INFO - 所有特征工程任务已完成！
